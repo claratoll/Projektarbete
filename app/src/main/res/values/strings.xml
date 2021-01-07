@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hockeyfrågesport</string>
+
+
+    //main
+    <string name="quit">QUIT APP</string>
+    <string name="createUser">CREATE USER</string>
+    <string name="showScore">CREATE USER BEFORE PLAYING</string>
+    <string name="questionactivity">to the questions</string>
+
+    //user
+    <string name="realName">NAME</string>
+    <string name="userName">USERNAME</string>
+    <string name="createUser2">CREATE USER</string>
+    <string name="userBoard">USER BOARD</string>
+    <string name="goBack">GO BACK</string>
+    <string name="bnSave">SAVE</string>
+
+
+    //questions
+    <string name="firstA">first answer</string>
+    <string name="secondA">second answer</string>
+    <string name="thirdA">third answer</string>
+    <string name="fourthA">fourth answer</string>
+
+    <string name="t_correct">Rätt!</string>
+    <string name="t_incorrect">Fel!</string>
+    <string name="initial_score">score</string>
+    <string name="questions">QUESTIONS</string>
+
+</resources>

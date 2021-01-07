@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/questionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/questions"
+        android:background="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionView"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/firstA" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionView"
+        android:layout_toEndOf="@id/button1"
+        android:layout_marginTop="30dp"
+        android:text="@string/secondA"
+        android:layout_toRightOf="@id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="25dp"
+        android:text="@string/thirdA" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_toEndOf="@id/button3"
+        android:layout_toRightOf="@id/button3"
+        android:text="@string/fourthA" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@id/quit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/initial_score"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="goToMain"
+        android:text="@string/goBack" />
+
+</RelativeLayout>

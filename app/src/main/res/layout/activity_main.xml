@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/questionBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/createUser"
+        android:layout_marginTop="30dp"
+        android:onClick="toQuestions"
+        android:text="@string/questionactivity" />
+
+    <Button
+        android:id="@+id/createUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:onClick="toCreateUser"
+        android:text="@string/createUser" />
+
+    <TextView
+        android:id="@+id/showScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionBn"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:text="@string/showScore" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="quit"
+        android:text="@string/quit" />
+</RelativeLayout>
